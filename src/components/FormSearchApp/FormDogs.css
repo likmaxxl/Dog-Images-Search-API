@@ -1,0 +1,85 @@
+.content {
+  box-sizing: border-box;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  background: #E0E7E9 ;
+  padding: 20px;
+}
+.dogsName {
+  font-size: 17px;
+  line-height: 25px;
+  height: 170px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.dogsName span {
+  padding: 3px;
+}
+.dogsName span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  text-align: center;
+}
+
+#dogsNames {
+  background:#CFDB31 ;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+#dogsNames .ui.input {
+  width: 100%;
+}
+#dogsNames .ui.input input {
+  padding: 15px 10px;
+  font-size: 17px;
+}
+.ui.icon.input > i.circular.icon {
+  font-size: 20px;
+}
+#dogsNames .logo {
+  display: flex;
+  padding: 10px 30px;
+}
+#dogsNames .logo img {
+  width: 15%;
+}
+#dogsNames .logo h3 {
+  font-family: cursive;
+  width: 70%;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  color: #2b231b;
+
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 40px;
+}
+.imgSearch{
+  position: relative;
+  height: 350px;
+}
+.imgSearch img {
+  margin-top: 5px;
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.content h1 {
+  width:100%;
+  text-align: center;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+.content .dogsName h1{
+  text-align: center;
+  position: static;
+  transform: none;
+}
